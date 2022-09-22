@@ -164,7 +164,9 @@ class SystemState:
     def update_img_table(self, med_img):
         column_names = ['create_time','seen_time', 'finished', 'time_w_rad', 'total_time']
         values = [med_img.time_created, med_img.time_seen, self.time, self.time - med_img.time_seen, self.time - med_img.time_created]
-        self.img_table.append(pd.DataFrame().T, ignore_index = True)
+        temp_df = pd.DataFrame(values).T
+        temp_df.columns = column_names
+        self.img_table = self.img_table.append(temp_df, ignore_index = True)
     
         
     def process_event(self):
