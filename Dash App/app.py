@@ -106,16 +106,12 @@ def demo_data():
 
 
 def instructions():
-    return html.P(
-        children=[
-            """
-    * GitHub Repo : https://github.com/temefford/DES
-    * Google Colab : https://colab.research.google.com/drive/1G42XJu26m4uWVqzKP4lPmdGlcnXTQrU-#scrollTo=WTCWsDeImdxS
-    """
-        ],
-        className="instructions-sidebar",
-        style={'fontSize': 14, "padding": 1},
-    )
+    return html.Div(children=[html.A("GitHub Repo" , href='https://github.com/temefford/DES', target="_blank"),
+                              html.P(" "),
+                              html.A("Google Colab", href='https://colab.research.google.com/drive/1G42XJu26m4uWVqzKP4lPmdGlcnXTQrU-#scrollTo=WTCWsDeImdxS', target="_blank"), 
+                    ],
+                    style={'font-size': '16px', 'display': 'inline-block', 'margin-left': '25px', 'margin-right': '5px', 'margin-bottom': '15px'},
+                    )
 
 
 height, width = 200, 500
