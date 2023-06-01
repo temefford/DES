@@ -1,6 +1,6 @@
 # Dash TeleRadiology Network Simulation
 
-![alt text](https://github.com/temefford/DES/blob/main/Dash App/assets/app_ui.png?raw=true)
+![alt text](https://github.com/temefford/DES/blob/main/Dash\ App/assets/app_ui.png?raw=true)
 
 Link to app: https://teleradiology-simulation.onrender.com 
 
