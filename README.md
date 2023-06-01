@@ -1,5 +1,7 @@
 # Dash TeleRadiology Network Simulation
 
+Link to app: https://teleradiology-simulation.onrender.com 
+
 If you want to work with the code and have more control over the simulation, you can use the experiment_runner.ipynb file or the following
 colab link: https://colab.research.google.com/drive/1G42XJu26m4uWVqzKP4lPmdGlcnXTQrU-#scrollTo=WTCWsDeImdxS
 
