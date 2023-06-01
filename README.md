@@ -1,10 +1,17 @@
 # Dash TeleRadiology Network Simulation
+
+This application simulates a network of remote radiologists analyzing medical images. It is in essence a queuing problem that can be used to explore routing algorithms (deciding who to send each new medical image to) to optimize the network's efficiency.
+
 ## What does the app do?
 
 This app allows you to simulate a Teleradiology network in which medical images of various types are created and distributed to the radiologists in the network that are best able to process them. We have defined three tiers of medical image urgencies: 
+
 1 - very urgent 
+
 2 - urgent 
+
 3 - not urgent.
+
 For each of the three types of image, you can define several parameters:
 
 Simulation Duration - This value defines the amount of time that medical images will be created and put into the system for.
