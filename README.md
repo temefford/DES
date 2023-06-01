@@ -1,5 +1,7 @@
 # Dash TeleRadiology Network Simulation
 
+![alt text](https://github.com/temefford/DES/blob/main/Dash App/assets/app_ui.png?raw=true)
+
 Link to app: https://teleradiology-simulation.onrender.com 
 
 If you want to work with the code and have more control over the simulation, you can use the experiment_runner.ipynb file or the following
