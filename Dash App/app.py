@@ -109,9 +109,8 @@ def instructions():
     return html.P(
         children=[
             """
-    *Note*
-    - Decreasing the number of radiologists and the arrival will slow the simulation
-    - Increasing the sim duration and the process rates will slow the simulation
+    * GitHub Repo : https://github.com/temefford/DES
+    * Google Colab : https://colab.research.google.com/drive/1G42XJu26m4uWVqzKP4lPmdGlcnXTQrU-#scrollTo=WTCWsDeImdxS
     """
         ],
         className="instructions-sidebar",
