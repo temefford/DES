@@ -1,5 +1,8 @@
 # Dash TeleRadiology Network Simulation
 
+If you want to work with the code and have more control over the simulation, you can use the experiment_runner.ipynb file or the following
+colab link: https://colab.research.google.com/drive/1G42XJu26m4uWVqzKP4lPmdGlcnXTQrU-#scrollTo=WTCWsDeImdxS
+
 This application simulates a network of remote radiologists analyzing medical images. It is in essence a queuing problem that can be used to explore routing algorithms (deciding who to send each new medical image to) to optimize the network's efficiency.
 
 ## What does the app do?
