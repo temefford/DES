@@ -1,0 +1,7 @@
+dash
+dash-canvas
+dash-table
+gunicorn
+scikit-image
+pandas
+numpy
