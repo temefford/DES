@@ -4,6 +4,7 @@ dash-core-components==2.0.0
 dash-html-components==2.0.0
 dash-table==5.0.0
 Flask==2.2.5
+gunicorn
 imageio==2.30.0
 Jinja2==3.1.2
 joblib==1.2.0
