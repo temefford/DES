@@ -8,13 +8,14 @@ https://teleradiology-simulation.onrender.com
 ## Run Locally
 Clone repo and navigate into /Dash App/app directory.
 
-python app.py
+```python app.py```
 
 ## Run Locally with Docker
 Clone repo and navigate into Dash App directory.
 
-docker build -t des-app .
-docker run -p 8050:8050 --name dashboard -d des-app
+```docker build -t des-app .```
+
+```docker run -p 8050:8050 --name dashboard -d des-app```
 
 If you want to work with the code and have more control over the simulation, you can use the experiment_runner.ipynb file or the following
 ## Google Colab link
